@@ -29,7 +29,7 @@
 | **Capacidade por sprint (1 semana)** | **28 h** (5 × 8 × 0,7) |
 | Conversão de estimativa | ~1 ponto ≈ 3 h (tabela do PROMPT §9.4) |
 | **Capacidade estimada** | **~9 pontos/sprint** · **~27 pontos no ciclo** |
-| Comprometido com buffer (~20%) | **~21–24 pontos** |
+| Comprometido no MVP | **27 pontos** (capacidade nominal, sem buffer; itens Should ficam no Backlog) |
 
 > Regra: o backlog das 3 sprints **não pode exceder ~24 pontos**. O que não couber fica em `Backlog` (pós-MVP) ou é fatiado.
 
