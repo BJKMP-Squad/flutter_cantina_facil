@@ -1,0 +1,90 @@
+{"tipo":"label","nome":"tipo:feature","cor":"1D76DB","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"tipo:bug","cor":"D73A4A","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"tipo:tech","cor":"5319E7","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"tipo:docs","cor":"0075CA","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"tipo:spike","cor":"FBCA04","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"area:aluno","cor":"0E8A16","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"area:auth","cor":"0E8A16","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"area:gestao","cor":"0E8A16","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"area:infra","cor":"0E8A16","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"area:pdv","cor":"0E8A16","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"area:produto","cor":"0E8A16","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"area:saldo","cor":"0E8A16","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"prio:p0","cor":"B60205","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"prio:p1","cor":"D93F0B","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"prio:p2","cor":"FBCA04","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"prio:p3","cor":"0E8A16","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"tam:pp","cor":"C5DEF5","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"tam:p","cor":"BFD4F2","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"tam:m","cor":"BFDADC","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"tam:g","cor":"D4C5F9","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"bloqueado","cor":"000000","acao":"upsert","alvo":"label"}
+{"tipo":"label","nome":"dependencia-externa","cor":"E99695","acao":"upsert","alvo":"label"}
+{"tipo":"milestone","nome":"Sprint 1","numero":1,"due":"2026-11-16T23:59:59Z","acao":"create","alvo":"milestone"}
+{"tipo":"milestone","nome":"Sprint 2","numero":2,"due":"2026-11-23T23:59:59Z","acao":"create","alvo":"milestone"}
+{"tipo":"milestone","nome":"Sprint 3","numero":3,"due":"2026-11-30T23:59:59Z","acao":"create","alvo":"milestone"}
+{"tipo":"issue","id":"CF-001","numero":1,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/1","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-002","numero":2,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/2","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-003","numero":3,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/3","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-004","numero":4,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/4","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-005","numero":5,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/5","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-006","numero":6,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/6","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-007","numero":7,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/7","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-008","numero":8,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/8","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-009","numero":9,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/9","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-010","numero":10,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/10","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-011","numero":11,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/11","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-012","numero":12,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/12","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-013","numero":13,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/13","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-014","numero":14,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/14","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-015","numero":15,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/15","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-016","numero":16,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/16","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-017","numero":17,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/17","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-018","numero":18,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/18","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-019","numero":19,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/19","acao":"create","alvo":"issue"}
+{"tipo":"issue","id":"CF-020","numero":20,"url":"https://github.com/BJKMP-Squad/flutter_cantina_facil/issues/20","acao":"create","alvo":"issue"}
+{"tipo":"project","numero":4,"titulo":"Cantina Fácil — Kanban","acao":"create","alvo":"project"}
+{"tipo":"field","nome":"Prioridade","acao":"create","alvo":"field"}
+{"tipo":"field","nome":"Tamanho","acao":"create","alvo":"field"}
+{"tipo":"field","nome":"Sprint","acao":"create","alvo":"field"}
+{"tipo":"field","nome":"Área","acao":"create","alvo":"field"}
+{"tipo":"field","nome":"Épico","acao":"create","alvo":"field"}
+{"tipo":"field","nome":"Estimativa","acao":"create","alvo":"field"}
+{"tipo":"field","nome":"Status","acao":"update_options","opcoes":["Backlog","Ready","Em progresso","Em revisão","Done"],"alvo":"field"}
+{"tipo":"item","id":"CF-001","numero":1,"status":"Ready","prioridade":"P0 - Bloqueante","tamanho":"3","sprint":"Sprint 1","area":"Infra","epico":"CF-E01 Fundação e design system","estimativa":3,"acao":"campos","alvo":"item"}
+{"tipo":"item","id":"CF-002","numero":2,"status":"Ready","prioridade":"P0 - Bloqueante","tamanho":"3","sprint":"Sprint 1","area":"Infra","epico":"CF-E01 Fundação e design system","estimativa":3,"acao":"campos","alvo":"item"}
+{"tipo":"item","id":"CF-003","numero":3,"status":"Ready","prioridade":"P0 - Bloqueante","tamanho":"3","sprint":"Sprint 1","area":"Auth","epico":"CF-E02 Conta e acesso","estimativa":3,"acao":"campos","alvo":"item"}
+{"tipo":"item","id":"CF-004","numero":4,"status":"Ready","prioridade":"P1 - Alta","tamanho":"3","sprint":"Sprint 2","area":"Aluno","epico":"CF-E03 Alunos e vínculos","estimativa":3,"acao":"campos","alvo":"item"}
+{"tipo":"item","id":"CF-005","numero":5,"status":"Ready","prioridade":"P1 - Alta","tamanho":"2","sprint":"Sprint 2","area":"Produto","epico":"CF-E04 Catálogo e produtos","estimativa":2,"acao":"campos","alvo":"item"}
+{"tipo":"item","id":"CF-006","numero":6,"status":"Ready","prioridade":"P0 - Bloqueante","tamanho":"3","sprint":"Sprint 2","area":"PDV","epico":"CF-E05 Venda no PDV","estimativa":3,"acao":"campos","alvo":"item"}
+{"tipo":"item","id":"CF-007","numero":7,"status":"Ready","prioridade":"P0 - Bloqueante","tamanho":"2","sprint":"Sprint 2","area":"PDV","epico":"CF-E05 Venda no PDV","estimativa":2,"acao":"campos","alvo":"item"}
+{"tipo":"item","id":"CF-008","numero":8,"status":"Ready","prioridade":"P1 - Alta","tamanho":"2","sprint":"Sprint 3","area":"Saldo","epico":"CF-E06 Carteira e recarga","estimativa":2,"acao":"campos","alvo":"item"}
+{"tipo":"item","numero":10,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":11,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":12,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":13,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":14,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":15,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":16,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":17,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":18,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":19,"acao":"add","alvo":"item"}
+{"tipo":"item","numero":20,"acao":"add","alvo":"item"}
+{"tipo":"view","nome":"Kanban — Sprint atual","layout":"BOARD_LAYOUT","filtro":"-status:Done","acao":"create","alvo":"view"}
+{"tipo":"view","nome":"Backlog","layout":"TABLE_LAYOUT","filtro":"status:Backlog","acao":"create","alvo":"view"}
+{"tipo":"view","nome":"Por épico","layout":"TABLE_LAYOUT","filtro":"","acao":"create","alvo":"view"}
+{"tipo":"view","nome":"Roadmap","layout":"ROADMAP_LAYOUT","filtro":"","acao":"create","alvo":"view"}
+{"tipo":"view","nome":"Meus itens","layout":"TABLE_LAYOUT","filtro":"assignee:@me","acao":"create","alvo":"view"}
+{"tipo":"link","repo":"BJKMP-Squad/flutter_cantina_facil","acao":"link","alvo":"link"}
+{"tipo":"item","alvo":"item","id":"CF-009","numero":9,"status":"Ready","prioridade":"P1 - Alta","tamanho":"2","sprint":"Sprint 3","area":"Saldo","epico":"CF-E06 Carteira e recarga","estimativa":2,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-010","numero":10,"status":"Ready","prioridade":"P1 - Alta","tamanho":"2","sprint":"Sprint 3","area":"Produto","epico":"CF-E04 Catálogo e produtos","estimativa":2,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-011","numero":11,"status":"Ready","prioridade":"P1 - Alta","tamanho":"2","sprint":"Sprint 3","area":"Infra","epico":"CF-E08 Qualidade e entrega","estimativa":2,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-012","numero":12,"status":"Backlog","prioridade":"P2 - Média","tamanho":"2","sprint":"Backlog","area":"Gestão","epico":"CF-E07 Gestão e relatórios","estimativa":2,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-013","numero":13,"status":"Backlog","prioridade":"P2 - Média","tamanho":"3","sprint":"Backlog","area":"Gestão","epico":"CF-E07 Gestão e relatórios","estimativa":3,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-014","numero":14,"status":"Backlog","prioridade":"P2 - Média","tamanho":"5","sprint":"Backlog","area":"Saldo","epico":"CF-E06 Carteira e recarga","estimativa":5,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-015","numero":15,"status":"Backlog","prioridade":"P3 - Baixa","tamanho":"3","sprint":"Backlog","area":"PDV","epico":"CF-E05 Venda no PDV","estimativa":3,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-016","numero":16,"status":"Backlog","prioridade":"P3 - Baixa","tamanho":"3","sprint":"Backlog","area":"Saldo","epico":"CF-E06 Carteira e recarga","estimativa":3,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-017","numero":17,"status":"Backlog","prioridade":"P3 - Baixa","tamanho":"2","sprint":"Backlog","area":"Gestão","epico":"CF-E07 Gestão e relatórios","estimativa":2,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-018","numero":18,"status":"Backlog","prioridade":"P3 - Baixa","tamanho":"5","sprint":"Backlog","area":"PDV","epico":"CF-E05 Venda no PDV","estimativa":5,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-019","numero":19,"status":"Backlog","prioridade":"P3 - Baixa","tamanho":"2","sprint":"Backlog","area":"PDV","epico":"CF-E05 Venda no PDV","estimativa":2,"acao":"campos"}
+{"tipo":"item","alvo":"item","id":"CF-020","numero":20,"status":"Backlog","prioridade":"P3 - Baixa","tamanho":"2","sprint":"Backlog","area":"Saldo","epico":"CF-E06 Carteira e recarga","estimativa":2,"acao":"campos"}
