@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Confirmação de e-mail - Cantina Fácil</title>
+</head>
+<body>
+  <main>
+    <h1>Confirmação de e-mail</h1>
+    <p id="status">Confira o resultado da confirmação e volte ao aplicativo para entrar.</p>
+  </main>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const fragment = new URLSearchParams(location.hash.slice(1));
+    const failed = params.has('error') || fragment.has('error');
+    history.replaceState(null, '', location.pathname);
+    document.getElementById('status').textContent = failed
+      ? 'Não foi possível confirmar o e-mail. O link pode ter expirado.'
+      : 'Se o link foi confirmado, volte ao aplicativo e entre com seu e-mail e senha.';
+  </script>
+</body>
+</html>
