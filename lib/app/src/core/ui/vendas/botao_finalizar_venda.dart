@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widget_previews.dart';
 
 import 'venda_cores.dart';
 import 'venda_moeda.dart';
@@ -22,9 +23,9 @@ class BotaoFinalizarVenda extends StatelessWidget {
       child: ElevatedButton(
         onPressed: isLoading ? null : onPressed,
         style: ElevatedButton.styleFrom(
-          backgroundColor: VendaCores.primario,
+          backgroundColor: VendaCores.primary,
           foregroundColor: Colors.white,
-          disabledBackgroundColor: VendaCores.primario.withAlpha(153),
+          disabledBackgroundColor: VendaCores.primary.withAlpha(153),
           disabledForegroundColor: Colors.white,
           elevation: 0,
           shadowColor: Colors.transparent,
@@ -55,3 +56,18 @@ class BotaoFinalizarVenda extends StatelessWidget {
     );
   }
 }
+
+@Preview(group: 'Vendas', name: 'Finalizar venda', size: Size(360, 56))
+Widget botaoFinalizarVendaPreview() =>
+    BotaoFinalizarVenda(totalEmCentavos: 12345, onPressed: () {});
+
+@Preview(
+  group: 'Vendas',
+  name: 'Finalizar venda (carregando)',
+  size: Size(360, 56),
+)
+Widget botaoFinalizarVendaCarregandoPreview() => BotaoFinalizarVenda(
+  totalEmCentavos: 12345,
+  onPressed: () {},
+  isLoading: true,
+);

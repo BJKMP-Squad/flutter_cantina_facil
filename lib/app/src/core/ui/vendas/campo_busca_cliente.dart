@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widget_previews.dart';
 
 import 'venda_cores.dart';
 
 class CampoBuscaCliente extends StatelessWidget {
-  const CampoBuscaCliente({
-    super.key,
-    this.controller,
-    this.onChanged,
-  });
+  const CampoBuscaCliente({super.key, this.controller, this.onChanged});
 
   final TextEditingController? controller;
   final ValueChanged<String>? onChanged;
@@ -19,8 +16,8 @@ class CampoBuscaCliente extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 9),
       decoration: BoxDecoration(
-        color: VendaCores.superficie,
-        border: Border.all(color: VendaCores.borda),
+        color: VendaCores.vendaSuperficie,
+        border: Border.all(color: VendaCores.vendaBorda),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
@@ -30,7 +27,7 @@ class CampoBuscaCliente extends StatelessWidget {
             child: Text(
               rotulo,
               style: TextStyle(
-                color: VendaCores.textoSecundario,
+                color: VendaCores.vendaTextoSecundario,
                 fontSize: 13,
               ),
             ),
@@ -42,15 +39,11 @@ class CampoBuscaCliente extends StatelessWidget {
               controller: controller,
               onChanged: onChanged,
               textInputAction: TextInputAction.search,
-              cursorColor: VendaCores.primario,
-              style: const TextStyle(
-                color: VendaCores.texto,
-                fontSize: 16,
+              decoration: const InputDecoration(
+                hintText: 'Buscar por nome ou matrícula',
               ),
-              decoration: const InputDecoration.collapsed(
-                hintText: '',
-                filled: false,
-              ),
+              cursorColor: VendaCores.primary,
+              style: TextStyle(color: VendaCores.vendaTexto, fontSize: 16),
             ),
           ),
         ],
@@ -58,3 +51,6 @@ class CampoBuscaCliente extends StatelessWidget {
     );
   }
 }
+
+@Preview(group: 'Vendas', name: 'Busca de cliente', size: Size(360, 88))
+Widget campoBuscaClientePreview() => const CampoBuscaCliente();
