@@ -38,8 +38,11 @@ A aplicação **Cantina Fácil** entrega valor para a empresa, os responsáveis 
 
 ## Técnologia usadas
 
-* **flutter**
-* **figma**
-* **claude**
-* **supabase**
-* **open code**
+* **Flutter**
+* **Figma**
+* **Claude**
+* **Supabase**
+* **Open code**
+* **Dart**
+* **Github**
+* **Gemini**
