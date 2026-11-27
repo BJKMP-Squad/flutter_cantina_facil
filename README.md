@@ -35,3 +35,11 @@ A aplicação **Cantina Fácil** entrega valor para a empresa, os responsáveis 
 * **Clareza na arquitetura do produto:** ajustei a frase sobre *"sistema web ... agora é uma aplicação mobile para as gestão dos pais e um pdv"* para deixar claro que a solução integra o app dos responsáveis e o PDV de atendimento (e, se ainda houver um painel web administrativo, vale citar explicitamente).
 * **Padronização dos valores:** agrupei e reescrevi os itens em tópicos curtos com títulos em negrito para facilitar a leitura em slides, pitch ou documentação do PI.
 * **Revisão gramatical:** corrigi concordância nominal/verbal, pontuação e o nome oficial do curso (*Desenvolvimento de Sistemas Multiplataforma*).
+
+## Técnologia usadas
+
+* **flutter
+* **figma
+* **claude
+* **supabase
+* **open code
